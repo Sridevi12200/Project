@@ -1,0 +1,144 @@
+.one{
+    background-color:green;
+    height:27px;
+    width:97vw;
+    color:white;
+    padding-left: 29em;
+    padding-bottom: 6px;
+}
+.two{
+    background-color:blue;
+    height:27px;
+    width:100vw;
+    color:black;
+    position: relative;
+    bottom:20.7px;
+    text-align: center;
+}
+.three{
+    background-color:white;
+    height:27px;
+    width:100vw;
+    color:orangered;
+}
+.nav,.three,img{
+    display: inline;
+    margin-left: 20px;
+    /* margin: 20px; */
+}
+ .three,ul,li,h3{
+    list-style: none;
+    display:inline;
+    position: relative;
+    bottom: 10px;
+    font-size: 22px;
+}
+
+
+.three,p{
+    margin-left: 8px;
+     
+}
+
+.three,img{
+    margin-top: 10px;
+} 
+li,h3{
+    padding-left:20px;
+}
+marquee,u{
+    background-color:navy;
+    color:white;
+}
+.mazz,mark{
+    position:relative;
+    top:20px;
+}
+.mazz{
+position: absolute;
+top:40em;
+width: 100vw;
+}
+#gallery{
+    margin:20px;
+    padding:2px;
+    float: left;
+    border-radius:15px;
+    font-family: fantasy;
+
+}
+#gallery :hover{
+    transform: scale(2);
+    cursor:help;
+}
+ p{
+    padding:20px;
+    text-align: center;
+    
+}
+button{
+    background-color: palevioletred;
+    color:white;
+}
+.para{
+    height:50vh;
+    width:95vw;
+    color:white;
+    background-color: navy;
+    padding-left: 50px;
+    position: relative;
+    bottom:25px;
+}
+input{
+    padding:15px;
+}
+button{
+    border-radius: 3px;
+    padding:10px;
+    color: white;
+    border: 2px solid white;
+    
+}
+.secpara{
+    height:18vh;
+    width:99vw;
+    color:white;
+    background-color:darkorange;
+    font-size: 25px;
+    position: relative;
+    bottom:50px;
+}
+
+input{
+    padding:15px;
+}
+
+.color{
+    background-color: navy;
+    color:white;
+    position:relative;
+    bottom:19px;
+    left:10px;
+}
+.services{
+    text-align:center;
+    border-radius: 5px;
+}
+.bar{
+    height:40vh;
+    width: 98vw;
+    background-color:black;
+    color:white;
+    position:relative;
+    bottom:49.2px;
+    
+}
+.footer{
+    background-color:navy;
+    height:30px;
+    width:99vw;
+    color:white;
+    position:relative;
+    bottom:68px;
+}
+    

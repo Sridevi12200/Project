@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        form{
+            height: 550px;
+            width: 30%;
+            background-color: blue;
+            color:springgreen;
+            position: absolute;
+            top:5%;
+            left:35%;
+            border: 5px solid green;
+        }
+        div{
+            text-align: center;
+            margin: 5%;
+        }
+        input{
+            background-color: brown;
+             padding: 5%;
+            border-radius:9px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <form id="form" action="">
+            <h1>CALCULATOR</h1>
+            <input style="background-color: bisque;" id="result"  type="text">
+            <br><br> 
+            <input type="button" value="DEL" onclick="form.result.value= form.result.value.toString().slice(0,-1)"> 
+            <!-- <input type="button" value="Del" onclick="Del()"> -->
+            <input type="button" value="AC" onclick="form.result.value=''">
+            <input type="button" value="/" onclick="form.result.value=form.result.value+'/'">
+            <br><br> 
+            <input type="button" value="7" onclick="form.result.value=form.result.value+7">
+            <input type="button" value="8" onclick="form.result.value=form.result.value+8">
+            <input type="button" value="9" onclick="form.result.value=form.result.value+9">
+            <input  type="button" value="*" onclick="form.result.value=form.result.value+'*'">
+            
+            <br><br>
+            <input type="button" value="4" onclick="form.result.value=form.result.value+4">
+            <input type="button" value="5" onclick="form.result.value=form.result.value+5">
+            <input type="button" value="6" onclick="form.result.value=form.result.value+6">
+            <input type="button" value="-" onclick="form.result.value=form.result.value+'-'">
+            <br><br>
+            <input type="button" value="1" onclick="form.result.value=form.result.value+1">
+            <input type="button" value="2" onclick="form.result.value=form.result.value+2">
+            <input type="button" value="3" onclick="form.result.value=form.result.value+3">
+            <input type="button" value="+" onclick="form.result.value=form.result.value+'+'">
+            <br><br>
+             <input type="button" value="%" onclick="form.result.value=form.result.value+'%'">
+            <input type="button" value="0"  onclick="form.result.value=form.result.value+0">
+            <input type="button" value="."  onclick="form.result.value=form.result.value+'.'">
+             <input type="button" value="=" onclick="form.result.value=eval(form.result.value)">
+             <br><br>
+            </form>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

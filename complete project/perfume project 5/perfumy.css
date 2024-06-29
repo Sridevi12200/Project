@@ -1,0 +1,43 @@
+nav{
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+h1,li,ul{
+    display: inline;
+}
+ul{
+    margin-left: 800px;
+    padding-left: 10px;
+}
+li:hover{
+    cursor: crosshair;
+    color: aqua;
+}
+.input{
+    padding: 10px;
+    margin: 25px;
+    margin-left: 320px;
+}
+input{
+    width: 69%;
+    height: 20px;
+}
+.one{
+    border: 2px solid black;
+    width: 220px;
+    display: inline-block;
+    }
+#perfum{
+    text-align: center;
+}
+p:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.contect{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}

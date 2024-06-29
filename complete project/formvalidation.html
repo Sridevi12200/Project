@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="formvalidation.css">
+    <script src="formvalidation.js"></script>
+</head>
+<body>
+    <div class="border">
+    <form action=" ">
+      <div class="user">
+    <h1 style="color: black;">Login form</h1>
+      <br>
+      <table>
+    <th>
+        <label for="name">Name:</label>
+        <td><input type="text" id="name" required></td>
+    </th>
+      <tr>
+    <th>
+        <label for="email">Email:</label>
+        <td><input type="text"  required></td>
+    </th>
+      </tr>
+    <tr>
+      <th>
+        <label style="position:relative; bottom:10px;padding-left: 26px; width: 5px;" for="password">Password:</label>
+        <td><input type="text" minlength="four" maxlength="five" required> <img src= "password-eye-icon.jpg" id="eye" height="20px" width="20px" style="position:relative;bottom:40px; left: 100px;"></td>
+      </th>
+   </tr>
+    </table>
+  </div>
+    <button>submit</button>
+  </form>
+  </div>
+   </body>
+</html>

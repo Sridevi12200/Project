@@ -1,0 +1,104 @@
+  body{
+    background-image: linear-gradient(red, rgb(128, 0, 79), orange);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-variant-caps:titling-caps;
+
+    
+}
+#light,h1{
+    animation-name: bright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform: skew(20deg);
+}
+@keyframes bright{
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    100%{
+        color:blue;
+    }
+}
+ .love1{
+    width: 300px;
+    height:650px;
+    top:150px;
+    position: absolute;
+    background:transparent;
+    left:30em;
+    animation-name: love;
+    animation-duration: 2s;
+    animation-iteration-count: linear;
+    animation-fill-mode: forwards;
+    
+}
+.love{
+    width: auto;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    top:20px;
+    filter: drop-shadow(5px,5px,10px,black); 
+}
+@keyframes love{
+    0%{
+        left:5%;
+        
+    }
+    50%{
+        left:10%;
+       
+    }
+    75%{
+        left:20%;
+       
+    }
+    100%{
+        right:40%;
+       
+    }
+}   
+.girl1{
+    width: auto;
+    height:750px;
+    top:150px;
+    position: absolute;
+    background:transparent;
+    right:55em;
+    animation-name: girl;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes girl{
+    0%{
+        right:5%;
+       
+    }
+    50%{
+        right:10%;
+       
+    }
+    75%{
+        right:20%;
+       
+    }
+    100%{
+        right:40%;
+       
+    }
+}

@@ -1,0 +1,70 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+#one img{
+    position: relative;
+    top:20px;
+}
+#one{
+    border: 2px solid white;
+    height:150vh;
+    width:55%;
+    margin:20%;
+    padding-left: 5%;
+    margin-top:2%;  
+     background-color:whitesmoke;
+     outline: 5px solid black;
+}
+h2{
+    text-align: center;
+    padding-right:20%;
+    padding-top: 8%;
+    float:right; 
+
+}
+#act{
+    background-color:whitesmoke;
+    text-align: center;
+    height:20px;
+    width:300px;
+    color: black;
+}
+#form{
+    margin-top: 40px;
+}
+
+.venue1{
+    float:left;
+    padding-left: 20px;
+    
+}
+#venue1{
+    padding-left: 27%;
+    margin-top: 15px;
+    float:left ;
+    
+}
+
+table,tr,th,td{
+    height:35px;
+    text-align: center;
+    border:1px solid black;
+    border-collapse: collapse;
+    width:620px;
+    
+
+}
+#empty{
+    width:200px;
+}
+u{
+    list-style:none;
+    display:inline;
+    align-content: space-between;
+    padding:70px;
+    line-height:20px;
+}
+
+
+
