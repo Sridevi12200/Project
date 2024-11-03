@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="nostra.css">
+    <script src="nostra.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="nostra.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" >
+            <i class="fa-solid fa-bars" onclick="showNavbar()"></i>
+        </div>
+   </nav>
+    <!--Side Navbar-->
+    <div class="side-navbar"> 
+        <p style="text-align: right;" onclick="closeNavbar()" >
+            <i  class="fa-solid fa-xmark"></i>
+        </p>
+      <div class="side-navbar-links">
+
+        <p class="side-navbar-link"><a href="nostra.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact Us</a></p>
+     </div> 
+        
+    </div>
+
+    <!-- slider  -->
+    <!-- <div class="header">
+    <div>
+        <h1>Level up your style with our</h1>
+        <p>Summer Collections</p> 
+        <button class="header-button"> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    <div>
+        <img  class="header-image" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/others/slider-one.jpg?raw=true"  width="100%" alt="">
+    </div>
+   
+</div> -->
+<div class="container">
+
+    
+        <!--Slider-->
+         <div class="slider">
+            <div class="slider-left-button">
+                <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="slider-content">
+                <h1>Level up your style with our</h1>
+                <h4>Summer Collections</h4> 
+                <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+
+            <div class="slider-image-container">
+                <img class="slider-image" src="https://media.istockphoto.com/id/653003428/photo/fashionable-clothes-in-a-boutique-store-in-london.jpg?s=612x612&w=0&k=20&c=UafU4a4xSbepJow4kvNu0q-LD4hFUoli7q3fvwkp79s="  width="100%"  alt="">
+                <img class="slider-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsEIDhr9NPic6BSRlswmRZoEBUoxvEOJaEDw&s" alt="" width="100%">
+                <img class="slider-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfWNbaf9f4KYI7EGaGblaR7IRrdx9upfR5pg&s" alt="" width="100%">
+            </div>
+
+            <div class="slider-right-button">
+                
+                <i id="slider-right-activate" class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+            </div>
+        </div> 
+<!-- <div class="slider">
+   
+
+    <div class="slider-content">
+        <h1>Level up your style with our</h1>
+        <h4>Summer Collections</h4> 
+        <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+
+    <div class="slider-image-container">
+        <img class="slider-image" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/others/slider-one.jpg?raw=true"  width="100%" alt="">
+        <img class="slider-image" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/others/slider-one.jpg?raw=true" alt="">
+        <img class="slider-image" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/others/slider-one.jpg?raw=true" alt="">
+    </div>
+
+    
+</div>  -->
+
+  <!--Offer Bar-->
+
+  <div class="offer-bar">
+    <marquee behavior="" direction="left"><p>Sign Up and <b>GET 20% OFF</b> for your first Order</marquee>
+    <!-- <i id="offer-close"  style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark"></i> -->
+    </p>
+</div> 
+
+
+ <!--Brands-->
+
+        
+ <h2 style="margin-top: 5vw;">Brands</h2>
+ <div class="brands">
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/behance.png?raw=true" alt="">
+         <p>Puma</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/adidas.png?raw=true" alt="">
+         <p>Adidas</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/simple.png?raw=true" alt="">
+         <p>Simple</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/leaves.png?raw=true" alt="">
+         <p>Leaves</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/behance.png?raw=true" alt="">
+         <p>Behance</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/twitch.png?raw=true" alt="">
+         <p>Twitch</p>
+     </div>
+
+     <div class="brands-item">
+         <img class="brands-icon" src="https://github.com/errormakesclever/Nostra-Ecommerce-Js/blob/main/img/icons/leaves.png?raw=true" alt="">
+         <p>Leaves</p>
+     </div>
+ </div>
+
+<div class="service"  style="margin-top: 2vw;">
+    <div class="service-container-1">
+<div>
+    <h2>We Provide Best</h2>
+    <h2>Customer Experience</h2>
+</div>
+
+<div>
+<p>|| We ensure thar our customer have the best shopping experience.</p>
+
+</div>
+    </div>
+
+
+
+
+
+<!-- face smile -->
+
+
+<div class="service-container-2"  style="margin-top: 2vw;">
+    <div>
+        <i class="fa-regular fa-face-smile"></i>
+        <h4>Nostra helps turn site visitors into customers, faster, by improving site speed and performance by 20-30% on average. Nostra is a no-code solution, and customers see results in as little as 72 hours.</h4>
+    </div>
+    <div>
+        <i class="fa-regular fa-face-smile"></i>
+        <h4> Their best-in-class Edge Delivery Engine™ underpins the success of well over a hundred top Shopify stores, driving improved CVR, AOV, SEO, and more through speed.</h4>
+    </div>
+    <div>
+        <i class="fa-regular fa-face-smile"></i>
+        <h4>Nostra helps turn site visitors into customers, faster, by improving site speed and performance by 20-30% on average. Nostra is a no-code solution, and customers see results in as little as 72 hours.</h4>
+    </div>
+</div>
+
+<div>
+    <h2  style="padding: 20px;">New Arrival</h2>
+<div class="new-arrival">
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Q7kDTlZUL-SDmXYnH2Zt_xXg65TLDWu6Kw&s" alt="" >
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpYlyBrwW7WBXnklXo3Bv_SckJQkQcusMUJQ&s" alt=""  >
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlsfuOU6_KTrfFifCS-nfIJuvILLwzohS-bQ&s" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM3SLNQt_8Gwa0SET7CRXYswpxudEat9slZg&s" alt="" >
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+
+</div>
+</div>
+
+<!-- MOST WANTED -->
+
+<div>
+    <h2  style="padding: 20px;">Most Wanted</h2>
+<div class="new-arrival">
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHVkS4o4g6OECfVg_tORfjqHviz58iIBEeAw&s" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmEuqVR3GDy-LZ-uCueN_l-RvShVHgWpzaJQ&s" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw0gAz0ARdzAVKZnp8shgyscDceza2i1KBw&s" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="new-arrival-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6KBZU0E7oX3-aUjQ665mmSKpcDVwgW4XA1w&s" alt="">
+        <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>
+</div>
+<!-- news letter -->
+<!-- <div>
+<div class="news">
+    <h2>Join our News Letter</h2>
+    <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <div style="margin-top: 10px;">
+    <input class="search">
+</div>
+<div>
+    <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+</div>
+</div>
+
+</div> -->
+
+<div class="news">
+    <h2>Join our News Letter</h2>
+    <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+    <div style="margin-top: 10px;">
+    <input class="search">
+</div>
+<div>
+    <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+</div>
+</div>
+</div>
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box-1">
+            <h2 class="headingText">Nostra</h2>
+            <br>
+            <p>The Standard chunk of Lorem ipsum
+                used since the 1500s is reprodused
+                below for those interest.</p>
+            <div class="footer-icon-container">
+                <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <p class="subtitle">@ 2023 Nostra.com</p>
+</div>
+</div>
+    
+</body>
+</html>
